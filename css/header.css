@@ -50,7 +50,7 @@ a{
 
 .bg-main{
     height: 80vh;
-    position: relative;
+    /* position: relative; */
 }
 
 .bg-color{
@@ -66,8 +66,14 @@ a{
 .nav-link:hover{
     color: var(--secondary-color) !important;
 }
+.navbar {
 
-/*hero section style */
+    position: sticky;
+    top: 0;
+  
+   
+  }
+/*main section style */
 
 .main-section .container{
     display:grid;
@@ -85,7 +91,7 @@ a{
     color: var(--secondary-color);
 }
 
-.hero-video--section{
+.main-video--section{
     width: 30rem;
     border-radius: 2rem;
 }
